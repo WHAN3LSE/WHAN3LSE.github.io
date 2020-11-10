@@ -1,0 +1,28 @@
+name: "My Website"  
+author: "wenjie Han"  
+output_dir: "docs"  
+output:  
+  html_document:  
+    self_contained: no  
+    theme: cosmo
+    css: style.css
+navbar:  
+  title: "Wenjie Han"
+  left:
+    - text: "Publications"
+      href: research.html
+    - text: "Talks"
+      href: talks.html
+    - text: "Programming"
+      href: software.html
+    - text: "Travel"
+      href: travel.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: https://github.com/WHAN3LSE
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/WENJIEHAN2
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/wenjie-han/
