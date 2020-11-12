@@ -1,0 +1,33 @@
+---
+title: "My Footprints"
+output: html_document
+---
+
+<style type="text/css">
+
+body, td {
+   font-size: 24px;
+}
+
+</style>
+
+```{r include = FALSE}
+library(leaflet)
+library(dplyr)
+```
+
+I love travelling and have left my (carbon) footprints around a lot places in the world. Check out the map below to see if you have also been to one of these cities.  
+
+```{r echo=FALSE}
+city_name <- c("Berlin", "London", "Paris")
+longitude <- c("13.405", "-0.118", "2.3522")
+latitude <- c("52.52", "51.509", "48.8566")
+df <- data.frame(city_name, longitude, latitude)
+
+df$longitude<-as.numeric(df$longitude)
+df$latitude<-as.numeric(df$latitude)
+leaflet() %>% 
+  addTiles()%>% 
+  addMarkers(data=df,lng=~longitude,lat=~latitude,popup = ~city_name) %>%
+  setView(5,50,zoom=4) 
+```

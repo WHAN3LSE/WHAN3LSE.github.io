@@ -16,7 +16,7 @@ navbar:
     - text: "Programming"
       href: software.html
     - text: "Travel"
-      href: travel.html
+      href: travelling.html
   right:
     - icon: fa-envelope fa-lg
       href: contact.html

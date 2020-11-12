@@ -23,6 +23,7 @@ h6 {
 }
 .a {
   font-size: 18px;
+  overflow: hidden;
 }
 img {
   display: block;

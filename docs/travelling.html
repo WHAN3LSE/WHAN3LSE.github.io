@@ -11,9 +11,9 @@
 
 
 
-<title>index.utf8</title>
+<title>My Footprints</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -24,6 +24,14 @@
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
 <script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
+<script src="site_libs/htmlwidgets-1.5.2/htmlwidgets.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4-compressed.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="site_libs/leaflet-binding-2.0.3/leaflet.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -332,17 +340,21 @@ $(document).ready(function () {
 
 
 
+<h1 class="title toc-ignore">My Footprints</h1>
 
 </div>
 
 
-<p><link rel="stylesheet" href="styles.css" type="text/css"></p>
-<p><img src="images/image.jpg" style="width:45%; border:10px solid; margin-right: 20px" align="left"></p>
-<div class="a">
-<p>Much of my research has focused on understanding the nature of human cognition and behaviour. I have received training in numerous fields (e.g. economics, psychology, anthroplogy, and political science) which culminated an interdisciplinary approach to scientific inquiry. My interest is initially grounded in dual-process reasoning theory but has gradually shifted to the evolution of psychological systems, with a special emphasis on biases in cognition, social learning, and gene-culture coevolution. I also have some background in public policy analysis and am eager to apply my knowledge to help political/social organisations make better decisions.</p>
-<p>I graduated from the <a href="https://www.lse.ac.uk/">LSE</a> with a BSc in Government and Economics in 2018. During my three years in London, I had the privilege of working under <a href="https://www.lse.ac.uk/management/people/academic-staff/hkappes">Dr. Heather Kappes</a> and obtained excellent research training in behaviourial science. A year later, I completed my M.A. in Social Sciences at <a href="https://www.uchicago.edu/">The University of Chicago</a>, where I investigated algorithms and human information avoidance under the supervision of <a href="https://faculty.chicagobooth.edu/berkeley-dietvorst">Dr. Berkeley Dietvorst</a>.</p>
-My full CV is available <a href="files/Wenjie%20Han-Resume.pdf">here</a>
-</div>
+<style type="text/css">
+
+body, td {
+   font-size: 24px;
+}
+
+</style>
+<p>I love travelling and have left my (carbon) footprints around a lot places in the world. Check out the map below to see if you have also been to one of these cities.</p>
+<div id="htmlwidget-3ffd9b000cbf4fffef2e" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-3ffd9b000cbf4fffef2e">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[[52.52,51.509,48.8566],[13.405,-0.118,2.3522],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Berlin","London","Paris"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[48.8566,52.52],"lng":[-0.118,13.405]},"setView":[[50,5],4,[]]},"evals":[],"jsHooks":[]}</script>
 
 
 
