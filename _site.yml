@@ -11,9 +11,9 @@ navbar:
   left:
     - text: "Publications"
       href: research.html
-    - text: "Talks"
+    - text: "Mentors & Collaborators"
       href: talks.html
-    - text: "Programming"
+    - text: "Pictures"
       href: software.html
     - text: "Travel"
       href: travelling.html
