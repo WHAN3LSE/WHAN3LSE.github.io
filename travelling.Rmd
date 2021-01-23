@@ -19,9 +19,9 @@ library(dplyr)
 I love travelling and have left my footprints around a lot places in the world. Check the map below and see if you have also been to one of these cities.  
 
 ```{r echo=FALSE}
-city_name <- c("Berlin","London","Paris","Chicago","Zürich","Tokyo")
-longitude <- c("13.405", "-0.118", "2.3522","-87.62","8.541","138.252")
-latitude <- c("52.52", "51.509", "48.8566","41.881","47.376","36.204")
+city_name <- c("Berlin","London","Paris","Chicago","Zürich","Tokyo","Beijing","Milan","Shanghai","New York","Los Angeles","Sydney","Hawaii","Hong Kong")
+longitude <- c("13.405", "-0.118", "2.3522","-87.62","8.541","138.252","116.407","9.190","121.473","-73.935","-118.243","151.209","-155.84","114.17")
+latitude <- c("52.52", "51.509", "48.8566","41.881","47.376","36.204","39.904","45.464","31.230","40.7306","34.05","-33.865","19.74","22.302")
 df <- data.frame(city_name, longitude, latitude)
 
 df$longitude<-as.numeric(df$longitude)
