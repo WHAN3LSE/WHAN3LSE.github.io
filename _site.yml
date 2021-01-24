@@ -12,7 +12,7 @@ navbar:
     - text: "Publications"
       href: research.html
     - text: "Mentors & Collaborators"
-      href: mentors.html
+      href: mentor.html
     - text: "Pictures"
       href: pictures.html
     - text: "Travel"
