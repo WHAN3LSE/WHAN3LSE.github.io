@@ -16,7 +16,7 @@ library(leaflet)
 library(dplyr)
 ```
 
-I love travelling and have left my footprints around a lot places in the world. Check the map below and see if you have also been to one of these cities.  
+I am a keen traveller and have been to a lot places in the world. Check the map below and see if you have also been to one of these cities.  
 
 ```{r echo=FALSE}
 city_name <- c("Berlin","London","Paris","Chicago","Zürich","Tokyo","Beijing","Milan","Shanghai","New York","Los Angeles","Sydney","Hawaii","Hong Kong")
