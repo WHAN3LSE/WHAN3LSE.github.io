@@ -1,28 +1,14 @@
 ---
-title: "mentor"
+title: ""
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+<style type="text/css">
 
-## R Markdown
+body, td {
+   font-size: 20px;
+}
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+</style>
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+I graduated from the [LSE](https://www.lse.ac.uk/) with a BSc in Government and Economics in 2018. During my three years in London, I had the privilege of working under [Dr. Heather Kappes](https://www.lse.ac.uk/management/people/academic-staff/hkappes) and obtained excellent research training in behaviourial science. A year later, I completed my M.A. in Social Sciences at [The University of Chicago](https://www.uchicago.edu/), where I investigated algorithms and human information avoidance under the supervision of [Dr. Berkeley Dietvorst](https://faculty.chicagobooth.edu/berkeley-dietvorst). I also had the pleasure of investigating how leadership decisions differ across cultures with [Professor. Todd Hare](https://www.econ.uzh.ch/en/people/faculty/hare.html) during my one year stay in [Zurich](https://www.uzh.ch/en.html).
