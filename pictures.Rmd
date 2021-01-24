@@ -1,0 +1,8 @@
+---
+title: "Cities"
+output: html_document
+---
+
+<img src="images/Tokyo.jpg" style="width:45%; border:10px solid; margin-right: 20px" align="left">
+
+<img src="images/Paris.jpg" style="width:45%; border:10px solid; margin-right: 20px" align="left">
