@@ -6,7 +6,7 @@ output: html_document
 <style type="text/css">
 
 body, td {
-   font-size: 24px;
+   font-size: 20px;
 }
 
 </style>
