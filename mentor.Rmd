@@ -2,13 +2,6 @@
 title: ""
 output: html_document
 ---
-<style type="text/css">
-
-body, td {
-   font-size: 20px;
-}
-
-</style>
 
 I graduated from the [LSE](https://www.lse.ac.uk/) with a BSc in Government and Economics in 2018. During my three years in London, I had the privilege of working under [Dr. Heather Kappes](https://www.lse.ac.uk/management/people/academic-staff/hkappes) and obtained excellent research training in behavioural science. 
 
