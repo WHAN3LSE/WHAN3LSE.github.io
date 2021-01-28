@@ -2,13 +2,12 @@
 title: ""
 output: html_document
 ---
-
 <style type="text/css">
 
 body, td {
-   font-size: 20px;
+   font-size: 24px;
 }
 
 </style>
 
-I graduated from the [LSE](https://www.lse.ac.uk/) with a BSc in Government and Economics in 2018. During my three years in London, I had the privilege of working under [Dr. Heather Kappes](https://www.lse.ac.uk/management/people/academic-staff/hkappes) and obtained excellent research training in behaviourial science. A year later, I completed my M.A. in Social Sciences at [The University of Chicago](https://www.uchicago.edu/), where I investigated algorithms and human information avoidance under the supervision of [Dr. Berkeley Dietvorst](https://faculty.chicagobooth.edu/berkeley-dietvorst). I also had the pleasure of investigating how leadership decisions differ across cultures with [Professor. Todd Hare](https://www.econ.uzh.ch/en/people/faculty/hare.html) during my one year stay in [Zurich](https://www.uzh.ch/en.html).
+I graduated from the [LSE](https://www.lse.ac.uk/) with a BSc in Government and Economics in 2018. During my three years in London, I had the privilege of working under [Dr. Heather Kappes](https://www.lse.ac.uk/management/people/academic-staff/hkappes) and obtained excellent research training in behavioural science. A year later, I completed my M.A. in Social Sciences at [The University of Chicago](https://www.uchicago.edu/), where I investigated algorithms and human information avoidance under the supervision of [Dr. Berkeley Dietvorst](https://faculty.chicagobooth.edu/berkeley-dietvorst). I also had the pleasure of investigating how leadership decisions differ across cultures with [Professor. Todd Hare](https://www.econ.uzh.ch/en/people/faculty/hare.html) during my stay in [Zurich](https://www.uzh.ch/en.html). 

@@ -1,12 +1,12 @@
 ---
-title: "My Footprints"
+title: ""
 output: html_document
 ---
 
 <style type="text/css">
 
 body, td {
-   font-size: 24px;
+   font-size: 22px;
 }
 
 </style>
