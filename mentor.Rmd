@@ -5,6 +5,6 @@ output: html_document
 
 I graduated from the [LSE](https://www.lse.ac.uk/) with a BSc in Government and Economics in 2018. During my three years in London, I had the privilege of working under [Dr. Heather Kappes](https://www.lse.ac.uk/management/people/academic-staff/hkappes) and obtained excellent research training in behavioural science. 
 
-A year later, I completed my M.A. in Social Sciences at [The University of Chicago](https://www.uchicago.edu/), where I investigated algorithms and human information avoidance under the supervision of [Dr. Berkeley Dietvorst](https://faculty.chicagobooth.edu/berkeley-dietvorst). 
+A year later, I completed my MA in Social Sciences at [The University of Chicago](https://www.uchicago.edu/), where I investigated algorithms and human information avoidance under the supervision of [Dr. Berkeley Dietvorst](https://faculty.chicagobooth.edu/berkeley-dietvorst). 
 
 I also had the pleasure of examining how leadership decisions differ across cultures with [Professor. Todd Hare](https://www.econ.uzh.ch/en/people/faculty/hare.html) during my stay in [Zurich](https://www.uzh.ch/en.html). 
