@@ -7,6 +7,8 @@ output: html_document
 ```{r include = FALSE}
 library(leaflet)
 library(dplyr)
+library(htmltools)
+library(htmlwidgets)
 ```
 
 I am a keen traveller and have been to a lot places in the world. Check the map below and see if you have also been to one of these cities.  
@@ -20,7 +22,10 @@ df <- data.frame(city_name, longitude, latitude)
 df$longitude<-as.numeric(df$longitude)
 df$latitude<-as.numeric(df$latitude)
 leaflet() %>% 
-  addTiles()%>% 
+  addTiles()%>%
+  addEasyButton(easyButton(
+    icon="fa-globe", title="Zoom to Level 1",
+    onClick=JS("function(btn, map){ map.setZoom(1); }"))) %>%
   addMarkers(data=df,lng=~longitude,lat=~latitude,popup = ~city_name,clusterOptions = markerClusterOptions()) %>%
   clearBounds() 
 ```
