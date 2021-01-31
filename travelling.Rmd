@@ -21,6 +21,6 @@ df$longitude<-as.numeric(df$longitude)
 df$latitude<-as.numeric(df$latitude)
 leaflet() %>% 
   addTiles()%>% 
-  addMarkers(data=df,lng=~longitude,lat=~latitude,popup = ~city_name) %>%
+  addMarkers(data=df,lng=~longitude,lat=~latitude,popup = ~city_name,clusterOptions = markerClusterOptions()) %>%
   clearBounds() 
 ```
