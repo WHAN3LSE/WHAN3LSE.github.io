@@ -4,8 +4,7 @@ output: html_document
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
-<link rel="stylesheet" href="academicicons/css/academicons.min.css"/>
 
 ## Motivation & Goal Pursuit
 
-Kappes, H. B., Fasolo, B., **Han, W.**, Barnes, J., & Meer, J. T. (2020). Poor peer work does not boost student confidence. *Journal of Behavioral Decision Making, 33*(2), 139–150. https://doi.org/10.1002/bdm.2148
+<div class="a"> Kappes, H. B., Fasolo, B., **Han, W.**, Barnes, J., & Meer, J. T. (2020). Poor peer work does not boost student confidence. *Journal of Behavioral Decision Making, 33*(2), 139–150. https://doi.org/10.1002/bdm.2148 </div>

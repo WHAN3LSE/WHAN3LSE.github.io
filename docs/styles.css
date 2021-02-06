@@ -25,6 +25,10 @@ h6 {
   font-size: 21px;
   overflow: hidden;
 }
+.b {
+  font-size: 20px;
+  overflow: hidden;
+}
 img {
   display: block;
   margin: auto;
