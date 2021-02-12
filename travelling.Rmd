@@ -3,8 +3,6 @@ title: ""
 output: html_document
 ---
 
-<link rel="stylesheet" href="styles.css" type="text/css">
-
 ```{r include = FALSE}
 library(leaflet)
 library(dplyr)
@@ -12,7 +10,6 @@ library(htmltools)
 library(htmlwidgets)
 ```
 
-<div class="a"> I am a keen traveller and have been to a lot places in the world. Check the map below and see if you have also been to one of these cities. </div> 
 
 ```{r echo=FALSE}
 city_name <- c("Berlin","London","Paris","Chicago","Zürich","Tokyo","Beijing","Milan","Shanghai","New York","Los Angeles","Sydney","Hawaii","Hong Kong")
@@ -30,22 +27,45 @@ leaflet() %>%
   addMarkers(data=df,lng=~longitude,lat=~latitude,popup = ~city_name,clusterOptions = markerClusterOptions()) %>%
   clearBounds() 
 ```
-<img src="images/Tokyo.jpg" style="width:45%; border:10px solid; margin-right: 20px" align="left">
 
-<img src="images/Paris.jpg" style="width:45%; border:10px solid; margin-right: 20px" align="left">
+<html>
 
-<img src="images/Beijing.jpg" style="width:45%; border:10px solid; margin-right: 20px" align="left">
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
 
-<img src="images/Chicago.jpg" style="width:45%; border:10px solid; margin-right: 20px" align="left">
+<body>
 
-<img src="images/Hawaii.jpg" style="width:45%; border:10px solid; margin-right: 20px" align="left">
+<h2 class="w3-center">Pictures</h2>
 
-<img src="images/Innsbruck.jpg" style="width:45%; border:10px solid; margin-right: 20px" align="left">
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="images/Chicago.jpg" style="width:100%">
+  <img class="mySlides" src="images/Tokyo.jpg" style="width:100%">
+  <img class="mySlides" src="images/Paris.jpg" style="width:100%">
+</div>
 
-<img src="images/SF.jpg" style="width:45%; border:10px solid; margin-right: 20px" align="left">
+<script>
+var myIndex = 0;
+carousel();
 
-<img src="images/Sydney.jpg" style="width:45%; border:10px solid; margin-right: 20px" align="left">
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 10000); // Change image every 10 seconds
+}
+</script>
 
-<img src="images/Sydney-Bridge.jpg" style="width:45%; border:10px solid; margin-right: 20px" align="left">
-
-<img src="images/Geneva.jpg" style="width:45%; border:10px solid; margin-right: 20px" align="left">
+</body>
+</html>
