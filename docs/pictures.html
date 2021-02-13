@@ -338,18 +338,45 @@ $(document).ready(function () {
 
 <hr />
 <hr />
-<p>余自幼远游，游历数国，足迹遍五湖四海。欣然之余，常愿天下太平，仁义施而百姓安也。</p>
-<p>俯仰之间，亦好诗词歌赋。华夏千古文库，腾蛟起凤。独爱两宋之风韵，犹喜《满庭芳》：山抹微云，天连衰草，画角声断斜阳。暂停征辔，聊共饮离觞。多少蓬莱旧侣，频回首烟霭茫茫。孤村里，寒烟万点，流水绕红墙。魂伤当此际，轻分罗带，暗解香囊，漫赢得青楼薄幸名狂。此去何时见也？襟袖上空有余香。伤心处，长城望断，灯火已昏黄。</p>
-<p><img src="images/Tokyo.JPG" style="width:45%; border:10px solid; margin-right: 20px" align="left"></p>
-<p><img src="images/Paris.jpg" style="width:45%; border:10px solid; margin-right: 20px" align="left"></p>
-<p><img src="images/Beijing.JPG" style="width:45%; border:10px solid; margin-right: 20px" align="left"></p>
-<p><img src="images/Chicago.JPG" style="width:45%; border:10px solid; margin-right: 20px" align="left"></p>
-<p><img src="images/Hawaii.JPG" style="width:45%; border:10px solid; margin-right: 20px" align="left"></p>
-<p><img src="images/Innsbruck.jpg" style="width:45%; border:10px solid; margin-right: 20px" align="left"></p>
-<p><img src="images/SF.JPG" style="width:45%; border:10px solid; margin-right: 20px" align="left"></p>
-<p><img src="images/Sydney.JPG" style="width:45%; border:10px solid; margin-right: 20px" align="left"></p>
-<p><img src="images/Sydney-Bridge.JPG" style="width:45%; border:10px solid; margin-right: 20px" align="left"></p>
-<p><img src="images/Geneva.jpg" style="width:45%; border:10px solid; margin-right: 20px" align="left"></p>
+<p>《满庭芳》北宋 （琴操）：山抹微云，天连衰草，画角声断斜阳。暂停征辔，聊共饮离觞。多少蓬莱旧侣，频回首烟霭茫茫。孤村里，寒烟万点，流水绕红墙。魂伤当此际，轻分罗带，暗解香囊，漫赢得青楼薄幸名狂。此去何时见也？襟袖上空有余香。伤心处，长城望断，灯火已昏黄。</p>
+<html>
+<head>
+<title>
+W3.CSS
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {text-align:baseline;}
+
+</style>
+</head>
+<body>
+<div class="w3-content w3-section" style="max-width:600px">
+<p><img class="mySlides" src="images/Sydney.JPG" style="width:100%"> <img class="mySlides" src="images/Chicago.JPG" style="width:100%"> <img class="mySlides" src="images/Tokyo.JPG" style="width:100%"> <img class="mySlides" src="images/Paris.jpg" style="width:100%"> <img class="mySlides" src="images/Beijing.JPG" style="width:100%"> <img class="mySlides" src="images/Hawaii.JPG" style="width:100%"> <img class="mySlides" src="images/Geneva.jpg" style="width:100%"> <img class="mySlides" src="images/Innsbruck.jpg" style="width:100%"> <img class="mySlides" src="images/Zurich.jpg" style="width:100%"> <img class="mySlides" src="images/Milan.jpg" style="width:100%"> <img class="mySlides" src="images/NY.jpg" style="width:100%"> <img class="mySlides" src="images/SF.JPG" style="width:100%"> <img class="mySlides" src="images/Sydney-Bridge.JPG" style="width:100%"></p>
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
+</body>
+</html>
 
 
 

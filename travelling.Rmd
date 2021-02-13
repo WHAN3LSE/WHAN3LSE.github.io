@@ -16,7 +16,6 @@ library(htmltools)
 library(htmlwidgets)
 ```
 
-
 ```{r echo=FALSE}
 city_name <- c("Berlin","London","Paris","Chicago","Zürich","Tokyo","Beijing","Milan","Shanghai","New York","Los Angeles","Sydney","Hawaii","Hong Kong")
 longitude <- c("13.405", "-0.118", "2.3522","-87.62","8.541","138.252","116.407","9.190","121.473","-73.935","-118.243","151.209","-155.84","114.17")
@@ -33,47 +32,3 @@ leaflet() %>%
   addMarkers(data=df,lng=~longitude,lat=~latitude,popup = ~city_name,clusterOptions = markerClusterOptions()) %>%
   clearBounds() 
 ```
-
-<html>
-
-<head>
-<title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-img {vertical-align: left;}
-
-</style>
-</head>
-<body>
-
-<h2 class="w3-center">Pictures</h2>
-
-<div class="w3-content w3-section" style="max-width:900px">
-  <img class="mySlides" src="images/Chicago.jpg" style="width:100%">
-  <img class="mySlides" src="images/Tokyo.jpg" style="width:100%">
-  <img class="mySlides" src="images/Paris.jpg" style="width:100%">
-</div>
-
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 5000); // Change image every 5 seconds
-}
-</script>
-</body>
-</html>
