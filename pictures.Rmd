@@ -31,7 +31,6 @@ img {text-align:baseline;}
   <img class="mySlides" src="images/Hawaii.jpg" style="width:100%">
   <img class="mySlides" src="images/Geneva.jpg" style="width:100%">
   <img class="mySlides" src="images/Innsbruck.jpg" style="width:100%">
-  <img class="mySlides" src="images/Zurich.jpg"  style="width:100%">
   <img class="mySlides" src="images/NY.jpg" style="width:100%">
   <img class="mySlides" src="images/SF.jpg" style="width:100%">
   <img class="mySlides" src="images/Sydney-Bridge.jpg" style="width:100%">
