@@ -32,6 +32,8 @@ h6 {
 img {
   display: block;
   margin: auto;
+  height: auto;
+  max-width: 100%;
   float: left;
 }
 img-circle {
