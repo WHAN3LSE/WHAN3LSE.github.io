@@ -5,18 +5,6 @@ output: html_document
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-img {
-  width: 100%;
-  height: auto;
-}
-</style>
-</head>
-<body>
-
 <img src="images/image.jpg" style="width:45%; border:10px solid; margin-right: 20px" align="left">
 
 </body>
