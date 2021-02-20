@@ -34,15 +34,9 @@ img {
   margin: auto;
   height: auto;
   max-width: 100%;
+  height: auto;
   float: left;
 }
 img-circle {
   border-radius: 50%;
 }
-
-.footer {
-  background-color: #F1F1F1;
-  text-align: center;
-  padding: 10px;
-}
-
