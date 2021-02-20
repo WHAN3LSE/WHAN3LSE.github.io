@@ -34,6 +34,7 @@ img {
   margin: auto;
   height: auto;
   max-width: 100%;
+  height: auto;
   float: left;
 }
 img-circle {
