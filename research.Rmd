@@ -9,3 +9,59 @@ output: html_document
 
 <div class="a"> Kappes, H. B., Fasolo, B., **Han, W.**, Barnes, J., & Meer, J. T. (2020). Poor peer work does not boost student confidence. *Journal of Behavioral Decision Making, 33*(2), 139–150. https://doi.org/10.1002/bdm.2148 </div>
 
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 20px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  font-size: 18px;
+}
+</style>
+</head>
+<body>
+
+<button type="button" class="collapsible">Abstract</button>
+<div class="content">
+  <p>Students' low confidence, particularly in numerical topics, is thought to be a barrier to keeping them engaged with education. We studied the effects on confidence of exposure to a peer's work of varying quality (very good or bad) and neatness (messy or neat). Previous research underpinned our hypothesis that a peer's bad‐quality work—which students rarely see—might boost student confidence more than very good work. We also predicted that a peer's very good work—which students are often shown—might be less discouraging if it were messy, suggesting it required effort and struggle. However, in experiments with university students and low‐educated adults, these hypotheses were not supported, and all participants decreased in confidence after seeing any peer work. The failure to find support for these hypotheses can inform future research into social comparison effects on self‐confidence in numerical topics. These results also have practical implications for teachers and managers who are expected to provide examples of peer work.</p>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
+
