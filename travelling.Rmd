@@ -7,8 +7,6 @@ output: html_document
 
 ---
 
-余自幼远游，游历数国，足迹遍五湖四海。常愿天下太平，仁义施而百姓安也。
-
 ```{r include = FALSE}
 library(leaflet)
 library(dplyr)
