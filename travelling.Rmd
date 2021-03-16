@@ -7,6 +7,9 @@ output: html_document
 
 ---
 
+Up until now, I have lived and studied in 5 different countries. To check out my academic path click on the link below. 
+
+
 ```{r include = FALSE}
 library(leaflet)
 library(dplyr)
