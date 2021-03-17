@@ -7,7 +7,11 @@ output: html_document
 
 ---
 
-Up until now, I have lived and studied in 5 different countries. To check out my academic path click on the link below. 
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<div class="a"> I have lived and studied in four different countries since college. I am extremely proud of this multicultural experience and feel greatly humbled by the diverse communities that exist on this earth. Check out my academic trail [here](files/Path/path.html)
+
+The map below also shows the cities I have visited for temporary stay/vacation </div>
 
 
 ```{r include = FALSE}
