@@ -21,7 +21,7 @@ map.fitBounds(londonChicagoZurichGenevaMannheim);
 
 //========================================================================
 var marker1 = L.Marker.movingMarker(londonChicagoZurichGenevaMannheim,
-    [6000, 6000, 2000, 2000]).addTo(map);
+    [5000, 5000, 2000, 2000]).addTo(map);
 marker1.once('click', function () {
     marker1.start();
     marker1.closePopup();

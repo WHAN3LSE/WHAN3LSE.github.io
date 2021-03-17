@@ -9,9 +9,9 @@ output: html_document
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<div class="a"> I have lived and studied in four different countries since college. I am extremely proud of this multicultural experience and feel greatly humbled by the diverse communities that exist on this earth. Check out my academic trail [here](files/Path/path.html)
+<div class="a"> Check out my academic trail [here](files/Path/path.html)
 
-The map below also shows the cities I have visited for temporary stay/vacation </div>
+The map below also shows the cities I have visited so far </div>
 
 
 ```{r include = FALSE}
