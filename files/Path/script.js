@@ -14,13 +14,13 @@ layer = new L.TileLayer(tileUrl,
 // add the layer to the map
 map.addLayer(layer);
 
-var londonChicagoZurichGenevaMannheim = [[51.507222, -0.1275], [41.8781, -87.6298],[47.3769, 8.5417],
-[46.2044, 6.1432], [49.4875, 8.4660],];
+var londonChicagoZurichGenevaZurich = [[51.507222, -0.1275], [41.8781, -87.6298],[47.3769, 8.5417],
+[46.2044, 6.1432], [47.3769, 8.5417],];
 
-map.fitBounds(londonChicagoZurichGenevaMannheim);
+map.fitBounds(londonChicagoZurichGenevaZurich);
 
 //========================================================================
-var marker1 = L.Marker.movingMarker(londonChicagoZurichGenevaMannheim,
+var marker1 = L.Marker.movingMarker(londonChicagoZurichGenevaZurich,
     [5000, 5000, 2000, 2000]).addTo(map);
 marker1.once('click', function () {
     marker1.start();
@@ -47,6 +47,6 @@ marker1.addStation(3, 1000);
 marker1.addStation(4, 1000);
 
 marker1.on('end', function() {
-    marker1.bindPopup('<b>Welcome to Mannheim !</b>', {closeOnClick: false})
+    marker1.bindPopup('<b>Welcome to Zurich!</b>', {closeOnClick: false})
     .openPopup();
 });
