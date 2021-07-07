@@ -11,7 +11,7 @@ output: html_document
 </html>
 
 
-<div class="a"> Much of my research has focused on understanding how emerging technologies influence consumer psychology and behaviour. A second stream of my work focuses on the evolutionary mechanisms of human behaviour.
+<div class="a"> Much of my research has focused on A and B. 
 
 As a firm believer in interdisciplinary research, I have received training in numerous scientific fields (e.g., economics, psychology, geography). 
 
