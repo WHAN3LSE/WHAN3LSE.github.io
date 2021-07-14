@@ -5,26 +5,41 @@ date: "2021/7/14"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
-## R Markdown
+<html>
+<body>
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+<h1>Test </h1>
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+<p>This method tests audio feedback.</p>
 
-```{r cars}
-summary(cars)
-```
+<h2 id="myH2">My Name is: </h2>
 
-## Including Plots
+<script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/1.1.0/annyang.min.js"></script>
 
-You can also embed plots, for example:
+<script>
+// detect whether it is supported in the browser
+if(annyang) {
+  // define some commands
+var commands = {
+  'What is your name': Name,
+  'Hello': Hello 
+}
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+function Name() {
+ var h = document.getElementById("myH2");
+  h.insertAdjacentText("afterend", "Wenjie");
+}
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+function Hello() {
+  window.open("https://www.w3schools.com");
+}
+  // register the defined commands
+  annyang.addCommands(commands);
+  // start listening
+  annyang.start();
+}
+</script>
+
+</body>
+</html>
