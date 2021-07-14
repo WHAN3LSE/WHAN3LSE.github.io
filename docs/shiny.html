@@ -1,0 +1,38 @@
+
+<html>
+<body>
+
+<h1>HTML DOM insertAdjacentText() Method</h1>
+
+<p>This method inserts a specified text, into a specified position.</p>
+
+<h2 id="myH2">My Header</h2>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/1.1.0/annyang.min.js"></script>
+
+<script>
+// detect whether it is supported in the browser
+if(annyang) {
+  // define some commands
+var commands = {
+  'What is your name': Name,
+  'Hello': Hello 
+}
+
+function Name() {
+ var h = document.getElementById("myH2");
+  h.insertAdjacentText("afterend", "My inserted text");
+}
+
+function Hello() {
+  window.open("https://www.w3schools.com");
+}
+  // register the defined commands
+  annyang.addCommands(commands);
+  // start listening
+  annyang.start();
+}
+</script>
+
+</body>
+</html>
